@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0E98981F1778A300D08729 /* Twitter_logo_blue-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */; };
 		4F92D9201EE022C600E727C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92D91F1EE022C600E727C7 /* AppDelegate.swift */; };
 		4F92D9221EE022C600E727C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92D9211EE022C600E727C7 /* ViewController.swift */; };
 		4F92D9251EE022C600E727C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F92D9231EE022C600E727C7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter_logo_blue-1.png"; sourceTree = "<group>"; };
 		4F92D91C1EE022C600E727C7 /* original app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "original app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F92D91F1EE022C600E727C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F92D9211EE022C600E727C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		4F92D91E1EE022C600E727C7 /* original app */ = {
 			isa = PBXGroup;
 			children = (
+				4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */,
 				4F92D91F1EE022C600E727C7 /* AppDelegate.swift */,
 				4F92D9211EE022C600E727C7 /* ViewController.swift */,
 				4F92D9231EE022C600E727C7 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				4F92D92A1EE022C600E727C7 /* LaunchScreen.storyboard in Resources */,
 				4F92D9271EE022C600E727C7 /* Assets.xcassets in Resources */,
+				4F0E98981F1778A300D08729 /* Twitter_logo_blue-1.png in Resources */,
 				4F92D9251EE022C600E727C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +415,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "original app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.original-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenji.original;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -423,8 +428,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "original app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.original-app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenji.original;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -503,6 +509,7 @@
 				4F92D9461EE022C600E727C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F92D9471EE022C600E727C7 /* Build configuration list for PBXNativeTarget "original appTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				4F92D9491EE022C600E727C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F92D94A1EE022C600E727C7 /* Build configuration list for PBXNativeTarget "original appUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				4F92D94C1EE022C600E727C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
