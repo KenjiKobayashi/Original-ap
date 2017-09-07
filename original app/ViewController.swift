@@ -15,10 +15,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let imageView = TestCell.contentView.viewWithTag(4)as! UIImageView
         let cellImage = UIImage(named: photos[(indexPath as NSIndexPath).row])
         imageView.image = cellImage
-        
-        let label = TestCell.contentView.viewWithTag(
+//        
+//        let label = TestCell.contentView.viewWithTag(
     }
-    
+
+
     
     var count = 0
     var timer = Timer()
