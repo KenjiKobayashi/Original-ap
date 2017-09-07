@@ -8,7 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+        let TestCell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
+        let imageView = TestCell.contentView.viewWithTag(4)as! UIImageView
+        let cellImage = UIImage(named: photos[(indexPath as NSIndexPath).row])
+        imageView.image = cellImage
+        
+        let label = TestCell.contentView.viewWithTag(
+    }
+    
+    
     var count = 0
     var timer = Timer()
     @IBOutlet var TwitterLabel: UILabel!
