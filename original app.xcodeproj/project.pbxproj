@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F08259D1F61615C00890B2B /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F08259C1F61615C00890B2B /* instagram.png */; };
 		4F0E98981F1778A300D08729 /* Twitter_logo_blue-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */; };
 		4F92D9201EE022C600E727C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92D91F1EE022C600E727C7 /* AppDelegate.swift */; };
 		4F92D9221EE022C600E727C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F92D9211EE022C600E727C7 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F08259C1F61615C00890B2B /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
 		4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter_logo_blue-1.png"; sourceTree = "<group>"; };
 		4F92D91C1EE022C600E727C7 /* original app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "original app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F92D91F1EE022C600E727C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		4F92D91E1EE022C600E727C7 /* original app */ = {
 			isa = PBXGroup;
 			children = (
+				4F08259C1F61615C00890B2B /* instagram.png */,
 				4F0E98971F1778A300D08729 /* Twitter_logo_blue-1.png */,
 				4F92D91F1EE022C600E727C7 /* AppDelegate.swift */,
 				4F92D9211EE022C600E727C7 /* ViewController.swift */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					4F92D91B1EE022C600E727C7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7NP9AL24FT;
 						ProvisioningStyle = Automatic;
 					};
 					4F92D92F1EE022C600E727C7 = {
@@ -238,6 +242,7 @@
 				4F92D92A1EE022C600E727C7 /* LaunchScreen.storyboard in Resources */,
 				4F92D9271EE022C600E727C7 /* Assets.xcassets in Resources */,
 				4F0E98981F1778A300D08729 /* Twitter_logo_blue-1.png in Resources */,
+				4F08259D1F61615C00890B2B /* instagram.png in Resources */,
 				4F92D9251EE022C600E727C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NP9AL24FT;
 				INFOPLIST_FILE = "original app/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NP9AL24FT;
 				INFOPLIST_FILE = "original app/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
